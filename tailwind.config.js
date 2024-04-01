@@ -11,7 +11,7 @@ export default {
 				primary: 'hsl(var(--primary) / <alpha-value>)'
 			},
 			fontFamily: {
-				sans: [...fontFamily.sans]
+				sans: ['Assistant', ...fontFamily.sans]
 			}
 		}
 	},
