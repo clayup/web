@@ -2,10 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Assistant";
+    src: url("/fonts/Assistant/Assistant-VariableFont_wght.ttf");
+}
+
 @layer base {
     :root {
         --foreground: 222.2 84% 4.9%;
-        --background: 32 96% 91%;
+        --background: 32 96% 95%;
 
         --primary: 214.15 53.7% 23.7%;
     }
@@ -13,7 +18,6 @@
 
 
 @layer base {
-
     body {
         @apply bg-background text-foreground;
     }
